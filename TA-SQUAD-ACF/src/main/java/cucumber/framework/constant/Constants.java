@@ -3,7 +3,7 @@ package cucumber.framework.constant;
 public class Constants {
 
 	public static final int TIMEOUT = 10;
-	public static final int TIMEOUT_DELAY = 2;
+	public static final int TIMEOUT_DELAY = 1;
 	public static final String GLOB_PARAM_DELAY = "n";
 	public static final String CHROME = "Chrome";
 	public static final String FIREFOX = "Firefox";
