@@ -1,4 +1,4 @@
-package cucumber.framework.runner.siloam.loginadmin;
+package cucumber.framework.runner.siloam.login;
 
 /*
 created_by : Novri
@@ -25,7 +25,7 @@ import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
-public class AdminLoginOutlineHooks{
+public class LoginOutlineHooks{
 	
 	public static WebDriver driver;
 	public static ExtentTest extentTest;

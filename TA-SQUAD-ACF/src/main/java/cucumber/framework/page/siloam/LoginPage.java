@@ -56,8 +56,16 @@ public class LoginPage {
 		this.username.sendKeys(user);
 	}
 	
+	public WebElement getInputUsername() {
+		return this.username;
+	}
+	
 	public void inputPassword(String pass) {
 		this.password.sendKeys(pass);
+	}
+	
+	public WebElement getInputPassword() {
+		return this.password;
 	}
 	
 	public void btnLogin() {
@@ -72,12 +80,9 @@ public class LoginPage {
 		return Utils.driverWaitTxt(driver, Constants.TIMEOUT, lblName);
 	}
 	
-	public Boolean msgErrorEmpty() {
-		WebElement username = driver.findElement(By.name("username"));    
-		String validationMessage = username.getAttribute("Please fill out this field.");
-		boolean required = Boolean.parseBoolean(username.getAttribute("required"));
-		boolean valid = (Boolean)((JavascriptExecutor)driver).executeScript("return arguments[0].validity.valid;", username);
-		return required;
+	public Boolean msgErrorEmpty(WebElement element) {
+		boolean isRequired = Boolean.parseBoolean(element.getAttribute("required"));
+		return isRequired;
 
 	}
 }

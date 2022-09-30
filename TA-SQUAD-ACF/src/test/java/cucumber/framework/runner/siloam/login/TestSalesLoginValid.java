@@ -1,4 +1,4 @@
-package cucumber.framework.runner.siloam.loginsales;
+package cucumber.framework.runner.siloam.login;
 
 import static org.testng.Assert.assertEquals;
 
@@ -20,8 +20,8 @@ public class TestSalesLoginValid {
 	private LoginPage loginPage = new LoginPage();
 	
 	public TestSalesLoginValid() {
-		driver = SalesLoginOutlineHooks.driver;
-		extentTest = SalesLoginOutlineHooks.extentTest;
+		driver = LoginOutlineHooks.driver;
+		extentTest = LoginOutlineHooks.extentTest;
 	}
 	
 	@When("Siloam005 Sales Mengakses Halaman Website")

@@ -1,4 +1,4 @@
-package cucumber.framework.runner.siloam.loginadmin;
+package cucumber.framework.runner.siloam.login;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
@@ -10,7 +10,6 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import cucumber.framework.constant.Constants;
 import cucumber.framework.page.siloam.LoginPage;
-import cucumber.framework.runner.siloam.loginsales.SalesLoginOutlineHooks;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -21,8 +20,8 @@ public class TestAdminLoginInvalid {
 	private LoginPage loginPage = new LoginPage();
 	
 	public TestAdminLoginInvalid() {
-		driver = AdminLoginOutlineHooks.driver;
-		extentTest = AdminLoginOutlineHooks.extentTest;
+		driver = LoginOutlineHooks.driver;
+		extentTest = LoginOutlineHooks.extentTest;
 	}
 	
 	@When("Siloam010 Admin Mengakses Halaman Website")

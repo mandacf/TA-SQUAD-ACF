@@ -2,19 +2,20 @@ package cucumber.framework.utils;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
-import javax.imageio.ImageIO;
 import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
 public class ComparingImages {
-   public static void main(String[] args) throws Exception {
+   public static void main(String[] args) throws IOException {
       BufferedImage img1 = ImageIO.read(new File("C:\\Users\\Nexsoft\\Pictures\\Testing\\Upload Foto Faskes Awal.jpg"));
       BufferedImage img2 = ImageIO.read(new File("C:\\Users\\Nexsoft\\Pictures\\Testing\\Upload Foto Faskes Awal (2).jpg"));
       int w1 = img1.getWidth();
       int w2 = img2.getWidth();
       int h1 = img1.getHeight();
       int h2 = img2.getHeight();
-      if ((w1!=w2)||(h1!=h2)) {
-         System.out.println("Both images should have same dimensions");
-      } else {
+      
          long diff = 0;
          for (int j = 0; j < h1; j++) {
             for (int i = 0; i < w1; i++) {
@@ -37,6 +38,12 @@ public class ComparingImages {
          double avg = diff/(w1*h1*3);
          double percentage = (avg/255)*100;
          System.out.println("Difference: "+percentage);
-      }
-   }
+	}
+//	Compare image 1
+//	Both images should have same dimensions
+//	Difference: 14.901960784313726
+//
+//	Compare image 2
+//	Both images should have same dimensions
+//	Difference: 14.901960784313726
 }

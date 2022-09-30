@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-30T09:58:53 WIB" name="Default suite" finished-at="2022-09-30T09:59:11 WIB" duration-ms="17556">
+  <suite started-at="2022-09-30T14:09:24 WIB" name="Default suite" finished-at="2022-09-30T14:09:31 WIB" duration-ms="7670">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner@68c9133c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.login.LoginOutlineRunner@68c9133c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-09-30T09:58:53 WIB" name="Default test" finished-at="2022-09-30T09:59:11 WIB" duration-ms="17556">
-      <class name="cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner@68c9133c]" started-at="2022-09-30T09:58:54 WIB" name="setUpClass" finished-at="2022-09-30T09:58:54 WIB" duration-ms="564" status="PASS">
+    <test started-at="2022-09-30T14:09:24 WIB" name="Default test" finished-at="2022-09-30T14:09:31 WIB" duration-ms="7670">
+      <class name="cucumber.framework.runner.siloam.login.LoginOutlineRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.framework.runner.siloam.login.LoginOutlineRunner@68c9133c]" started-at="2022-09-30T14:09:24 WIB" name="setUpClass" finished-at="2022-09-30T14:09:25 WIB" duration-ms="782" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3751acd7]]>
+                <![CDATA[org.testng.TestRunner@e26a3df]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner@68c9133c]" started-at="2022-09-30T09:58:54 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T09:59:03 WIB" duration-ms="8425" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.login.LoginOutlineRunner@68c9133c]" started-at="2022-09-30T14:09:25 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T14:09:29 WIB" duration-ms="4349" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,25 +30,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Valid Sales Login"]]>
+                <![CDATA["Invalid Sales Login"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null
-at cucumber.framework.runner.siloam.loginadmin.TestAdminLoginInvalidEmpty.siloam015_validasi_pesan_pada_halaman_login(TestAdminLoginInvalidEmpty.java:49)
-at ✽.Siloam015 Validasi pesan pada halaman login(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/015InvalidAdminLoginEmpty.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner@68c9133c]" started-at="2022-09-30T09:59:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T09:59:05 WIB" duration-ms="2034" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.login.LoginOutlineRunner@68c9133c]" started-at="2022-09-30T14:09:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T14:09:29 WIB" duration-ms="441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,25 +46,14 @@ at ✽.Siloam015 Validasi pesan pada halaman login(file:///C:/Users/NEXSOFT/Docu
             </param>
             <param index="1">
               <value>
-                <![CDATA["Valid Sales Login"]]>
+                <![CDATA["Invalid Sales Login"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null
-at cucumber.framework.runner.siloam.loginadmin.TestAdminLoginInvalidEmpty.siloam015_validasi_pesan_pada_halaman_login(TestAdminLoginInvalidEmpty.java:49)
-at ✽.Siloam015 Validasi pesan pada halaman login(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/015InvalidAdminLoginEmpty.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner@68c9133c]" started-at="2022-09-30T09:59:05 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T09:59:07 WIB" duration-ms="2093" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.login.LoginOutlineRunner@68c9133c]" started-at="2022-09-30T14:09:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T14:09:30 WIB" duration-ms="465" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,25 +62,14 @@ at ✽.Siloam015 Validasi pesan pada halaman login(file:///C:/Users/NEXSOFT/Docu
             </param>
             <param index="1">
               <value>
-                <![CDATA["Valid Sales Login"]]>
+                <![CDATA["Invalid Sales Login"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null
-at cucumber.framework.runner.siloam.loginadmin.TestAdminLoginInvalidEmpty.siloam015_validasi_pesan_pada_halaman_login(TestAdminLoginInvalidEmpty.java:49)
-at ✽.Siloam015 Validasi pesan pada halaman login(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/015InvalidAdminLoginEmpty.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner@68c9133c]" started-at="2022-09-30T09:59:07 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T09:59:09 WIB" duration-ms="2063" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.login.LoginOutlineRunner@68c9133c]" started-at="2022-09-30T14:09:30 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T14:09:30 WIB" duration-ms="537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,25 +78,14 @@ at ✽.Siloam015 Validasi pesan pada halaman login(file:///C:/Users/NEXSOFT/Docu
             </param>
             <param index="1">
               <value>
-                <![CDATA["Valid Sales Login"]]>
+                <![CDATA["Invalid Sales Login"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null
-at cucumber.framework.runner.siloam.loginadmin.TestAdminLoginInvalidEmpty.siloam015_validasi_pesan_pada_halaman_login(TestAdminLoginInvalidEmpty.java:49)
-at ✽.Siloam015 Validasi pesan pada halaman login(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/015InvalidAdminLoginEmpty.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner@68c9133c]" started-at="2022-09-30T09:59:09 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T09:59:11 WIB" duration-ms="2030" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.login.LoginOutlineRunner@68c9133c]" started-at="2022-09-30T14:09:30 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-30T14:09:31 WIB" duration-ms="518" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,29 +94,18 @@ at ✽.Siloam015 Validasi pesan pada halaman login(file:///C:/Users/NEXSOFT/Docu
             </param>
             <param index="1">
               <value>
-                <![CDATA["Valid Sales Login"]]>
+                <![CDATA["Invalid Sales Login"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "cucumber.framework.page.siloam.LoginPage.msgErrorEmpty()" is null
-at cucumber.framework.runner.siloam.loginadmin.TestAdminLoginInvalidEmpty.siloam015_validasi_pesan_pada_halaman_login(TestAdminLoginInvalidEmpty.java:49)
-at ✽.Siloam015 Validasi pesan pada halaman login(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/015InvalidAdminLoginEmpty.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner@68c9133c]" started-at="2022-09-30T09:59:11 WIB" name="tearDownClass" finished-at="2022-09-30T09:59:11 WIB" duration-ms="295" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.framework.runner.siloam.login.LoginOutlineRunner@68c9133c]" started-at="2022-09-30T14:09:31 WIB" name="tearDownClass" finished-at="2022-09-30T14:09:31 WIB" duration-ms="513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumber.framework.runner.siloam.loginadmin.AdminLoginOutlineRunner -->
+      </class> <!-- cucumber.framework.runner.siloam.login.LoginOutlineRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

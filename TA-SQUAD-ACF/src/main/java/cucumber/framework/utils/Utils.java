@@ -132,6 +132,41 @@ public class Utils {
 		return strTemp;
 	}
 	
+	public static String getFileNameWithExt(String path) {
+		String fileName = "";
+		File f = new File(path);
+        if(f.exists()){
+            fileName = f.getName();
+        }else{
+            fileName = "The File does not exist";
+        }
+		return fileName;
+	}
+	
+	public static long getFileSize(String path) {
+		long fileSize = 0l;
+		File f = new File(path);
+		if(f.exists()){
+			fileSize = f.length();
+		}else{
+			fileSize = 0l;
+		}
+		return fileSize;
+	}
+	
+	public static String getCurrentDate() {
+		String currentDate = "";
+		currentDate = java.time.LocalDate.now().toString();
+		return currentDate;
+	}
+	
+	public static String getCurrentDateWithoutStrip() {
+		String currentDate = "";
+		currentDate = java.time.LocalDate.now().toString();
+		currentDate = currentDate.replaceAll("-", "");
+		return currentDate;
+	}
+	
 	public static String generateDate() {
 		Random rand = new Random();
 		String strTemp = "";

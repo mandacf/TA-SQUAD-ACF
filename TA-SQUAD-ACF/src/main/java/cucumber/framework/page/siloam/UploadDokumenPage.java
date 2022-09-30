@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import cucumber.framework.connection.DriverSingleton;
+import cucumber.framework.constant.Constants;
+import cucumber.framework.utils.Utils;
 
 public class UploadDokumenPage {
 	
@@ -41,6 +43,10 @@ private WebDriver driver;
 	//input[contains(@attr, 'value')]
 	private WebElement Cancel;
 	
+	@FindBy(xpath = "//div[@id='message']")
+	//input[contains(@attr, 'value')]
+	private WebElement msgUploadVal;
+	
 	//UPLOAD DOKUMEN
 	public void uploadDocImgAwal() {
 		uploadImgAwal.click();
@@ -64,6 +70,11 @@ private WebDriver driver;
 	
 	public void btnCancel() {
 		Cancel.click();
+	}
+	
+	public String msgUploadError() {
+		return Utils.driverWaitTxt(driver, Constants.TIMEOUT, msgUploadVal);
+	
 	}
 
 }

@@ -1,4 +1,4 @@
-package cucumber.framework.runner.siloam.loginadmin;
+package cucumber.framework.runner.siloam.login;
 
 /*
 created_by : Novri
@@ -27,8 +27,8 @@ public class TestAdminLoginValid {
 	private LoginPage loginPage = new LoginPage();
 	
 	public TestAdminLoginValid() {
-		driver = AdminLoginOutlineHooks.driver;
-		extentTest = AdminLoginOutlineHooks.extentTest;
+		driver = LoginOutlineHooks.driver;
+		extentTest = LoginOutlineHooks.extentTest;
 	}
 	
 	@When("Siloam001 Admin Mengakses Halaman Website")

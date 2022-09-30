@@ -1,10 +1,10 @@
-package cucumber.framework.runner.siloam.loginadmin;
+package cucumber.framework.runner.siloam.login;
 
 /*
 created_by : Novri
 created_date : 29/09/2022
-updated_by : -
-updated_date : -
+updated_by : manda
+updated_date : 30/09/2022
 */
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
@@ -15,10 +15,12 @@ features = {
 //		"src/test/resources/features/siloam/001ValidAdminLogin.feature",
 //		"src/test/resources/features/siloam/010InvalidAdminLogin.feature"
 		"src/test/resources/features/siloam/015InvalidAdminLoginEmpty.feature"
+//		"src/test/resources/features/siloam/018InvalidSalesLogin.feature"
+//		"src/test/resources/features/siloam/019InvalidSalesLoginEmpty.feature"
 		},
-glue = "cucumber.framework.runner.siloam.loginadmin",
+glue = "cucumber.framework.runner.siloam.login",
 monochrome=true,
 plugin = {"pretty","html:target/siloam/htmlreport/LoginRunnerOutline.html",
 		"json:target/siloam/jsonreport/LoginRunnerOutline.json",
 		"junit:target/siloam/junitreport/LoginRunnerOutline.xml"})
-public class AdminLoginOutlineRunner extends AbstractTestNGCucumberTests{}
+public class LoginOutlineRunner extends AbstractTestNGCucumberTests{}

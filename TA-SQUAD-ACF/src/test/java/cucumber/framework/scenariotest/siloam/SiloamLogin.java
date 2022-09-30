@@ -9,8 +9,9 @@ updated_date : -
 
 public enum SiloamLogin {
 
-//	T1("Siloam001 Admin Valid Login Username");
-	T2("Siloam010 Admin Invalid Login Username");
+//	T1("Siloam001 Admin Valid Login Username"),
+	T2("Siloam005 Sales Valid Login Username"),
+	T3("Siloam010 Admin Invalid Login Username");
 	
 	private String testName;
 	
