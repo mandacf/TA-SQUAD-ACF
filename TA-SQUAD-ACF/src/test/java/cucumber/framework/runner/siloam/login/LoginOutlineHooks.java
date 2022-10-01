@@ -3,8 +3,8 @@ package cucumber.framework.runner.siloam.login;
 /*
 created_by : Novri
 created_date : 29/09/2022
-updated_by : -
-updated_date : -
+updated_by : Manda
+updated_date : 30/09/2022
 */
 
 import java.io.IOException;
@@ -31,7 +31,7 @@ public class LoginOutlineHooks{
 	public static ExtentTest extentTest;
 	public static ExtentReports reports = new ExtentReports("target/siloam/extentreport/siloam-admin-login-outline.html");
 	private static SiloamLogin[] tests = SiloamLogin.values();
-	private static final int[] DATA_OUTLINE = {6,6,1,1};
+	private static final int[] DATA_OUTLINE = {3,5,3,5};
 	private String testReport = "";
 	
 	@Before

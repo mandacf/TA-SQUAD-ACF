@@ -13,10 +13,10 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 features = {
 //		"src/test/resources/features/siloam/001ValidAdminLogin.feature",
-//		"src/test/resources/features/siloam/010InvalidAdminLogin.feature"
-		"src/test/resources/features/siloam/015InvalidAdminLoginEmpty.feature"
-//		"src/test/resources/features/siloam/018InvalidSalesLogin.feature"
-//		"src/test/resources/features/siloam/019InvalidSalesLoginEmpty.feature"
+		"src/test/resources/features/siloam/010InvalidAdminLogin.feature",
+		"src/test/resources/features/siloam/015InvalidAdminLoginEmpty.feature",
+		"src/test/resources/features/siloam/018InvalidSalesLogin.feature",
+		"src/test/resources/features/siloam/019InvalidSalesLoginEmpty.feature",
 		},
 glue = "cucumber.framework.runner.siloam.login",
 monochrome=true,
