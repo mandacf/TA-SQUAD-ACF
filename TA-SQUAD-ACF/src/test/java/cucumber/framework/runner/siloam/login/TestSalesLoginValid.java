@@ -48,7 +48,7 @@ public class TestSalesLoginValid {
 
 	@When("Siloam005 Sales Menekan Tombol Login")
 	public void siloam005_sales_menekan_tombol_login() {
-		loginPage.btnLogin();;
+		loginPage.btnLogin();
 		extentTest.log(LogStatus.PASS, "Siloam005 Sales Menekan Tombol Login");
 	}
 
