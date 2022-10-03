@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import cucumber.framework.connection.DriverSingleton;
 import cucumber.framework.constant.Constants;
@@ -119,7 +120,7 @@ private WebDriver driver;
 	//input[contains(@attr, 'value')]
 	private WebElement cancelUpload;
 	
-	public void update(String nama, String nomBpjs,String nomKtp, String address, String kotaKTP, String faskesAwal, String faskesTujuan, String alasan) throws AWTException {
+	public void update(String nama, String nomBpjs,String nomKtp, String address, String srkotaKTP, String faskesAwal, String faskesTujuan, String alasan) throws AWTException {
 		Robot robot = new Robot();
 		
 		if(nama != "") {
@@ -138,16 +139,16 @@ private WebDriver driver;
 			clearAddress();
 			updateAddress(address);
 		}
-		
-		if(kotaKTP != "") {
+		if(srkotaKTP != "") {
 			clickKotaKTP();
-			updateKotaKTP(kotaKTP);
+			updateKotaKTP(srkotaKTP);
 			robot.keyPress(KeyEvent.VK_ENTER);
 			robot.keyRelease(KeyEvent.VK_ENTER);
+//			Select skotaKtp = new Select(kotaKTP);
+//			skotaKtp.selectByValue(srkotaKTP);
 		}
-		
-		
 		if(faskesAwal != "") {
+			clearfaskesAwal();
 			updateFaskesAwal(faskesAwal);
 		}
 		if(faskesTujuan != "") {
@@ -170,6 +171,12 @@ private WebDriver driver;
 	}
 	
 //DATA	
+	
+	//Nama
+	public String getTxtName() {		
+		return nama.getAttribute("value");
+	}
+	
 	public void clearName() {
 		this.nama.clear();
 	}
@@ -178,12 +185,7 @@ private WebDriver driver;
 		this.nama.sendKeys(nama);
 	}
 	
-	public String getTxtName() {		
-		return nama.getAttribute("value");
-//		return Utils.driverWaitTxt(driver, Constants.TIMEOUT, nama);
-	}
-	
-	
+	//No BPJS
 	public void clearNomBpjs() {
 		this.nomBpjs.clear();
 	} 
@@ -195,10 +197,9 @@ private WebDriver driver;
 	
 	public String getTxtNoBPJS() {		
 		return nomBpjs.getAttribute("value");
-//		return Utils.driverWaitTxt(driver, Constants.TIMEOUT, nama);
 	}
 	
-	
+	//No KTP
 	public void clearNomKtp() {
 		this.nomKtp.clear();
 	} 
@@ -209,15 +210,24 @@ private WebDriver driver;
 	
 	public String getTxtNomKtp() {		
 		return nomKtp.getAttribute("value");
-//		return Utils.driverWaitTxt(driver, Constants.TIMEOUT, nama);
 	}
 	
+	//Address
 	public void clearAddress() {
 		this.address.clear();
 	} 
 	
 	public void updateAddress(String address) {
 		this.address.sendKeys(address);
+	}
+	
+	public String getTxtAddress() {		
+		return address.getAttribute("value");
+	}
+	
+	//Kota KTP
+	public String getTxtKotaKTP() {		
+		return kotaKTP.getAttribute("title");
 	}
 	
 	public void clickKotaKTP() {
@@ -229,10 +239,20 @@ private WebDriver driver;
 		this.txtBox.sendKeys(kotaKTP);
 	}
 	
+	//Faskes Awal
+	public void clearfaskesAwal() {
+		this.faskesAwal.clear();
+	} 
+	
 	public void updateFaskesAwal(String faskesAwal) {
 		this.faskesAwal.sendKeys(faskesAwal);
 	}
 	
+	public String getTxtFaskesAwal() {		
+		return faskesAwal.getAttribute("value");
+	}
+	
+	//Faskes Tujuan
 	public void clickFaskesTujuan() {
 		this.faskesTujuan.click();
 	}
@@ -241,6 +261,11 @@ private WebDriver driver;
 		this.txtBox.sendKeys(faskesTujuan);
 	}
 	
+	public String getTxtFaskesTujuan() {		
+		return faskesTujuan.getAttribute("title");
+	}
+	
+	//Alasan
 	public void clearAlasan() {
 		this.alasan.clear();
 	} 
@@ -248,6 +273,11 @@ private WebDriver driver;
 	public void updateAlasan(String alasan) {
 		this.alasan.sendKeys(alasan);
 	}
+	
+	public String getTxtAlasan() {		
+		return alasan.getAttribute("value");
+	}
+	
 	
 	public void btnEdit() {
 		this.edit.click();
