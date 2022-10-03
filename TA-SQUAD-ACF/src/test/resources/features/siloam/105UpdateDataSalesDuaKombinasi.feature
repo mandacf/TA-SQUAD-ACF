@@ -1,7 +1,7 @@
 #created_by : Alamanda
-#created_date : 29/09/2022
-#updated_by : -
-#updated_date : -
+#created_date : 3/10/2022
+#updated_by : 
+#updated_date : 
 
 
 Feature: Update Data Sales Dua Kombinasi
@@ -16,13 +16,24 @@ Feature: Update Data Sales Dua Kombinasi
     And Siloam105 Sales tekan tombol Simpan
     Then Siloam105 Validasi Data tersimpan dan form ter-update
   
-  #7 data
+  #14 data
   Examples: 
-  |Nama|Nomor BPJS|Nomor KTP|Alamat|Kota KTP|Faskes Awal|Faskes Tujuan|Alasan|
-	|Alamanda|1234567898765|||||||
-	|Alamanda||163456765432123||||||
+  |nama|nomorBPJS|nomorKTP|address|kotaKTP|faskesAwal|faskesTujuan|alasan|
+	|Alamanda|1234567898888|||||||
+	|Alamanda||1634567654321233||||||
 	|Alamanda|||Padang|||||
 	|Alamanda||||KOTA PADANG||||
 	|Alamanda|||||Klinik Test|||
 	|Alamanda||||||Tangerang||
 	|Alamanda|||||||Test|
+	||1234567898788|1634567654321238||||||
+	||1234567898788||Padang|||||
+	||1234567898788|||KOTA PADANG||||
+	||1234567898788||||Klinik Test|||
+	||1234567898788|||||Tangerang||
+	||1234567898788||||||Test|
+#	|||0163456765432123|Padang|||||
+#	|||0163456765432123||KOTA PADANG||||
+#	|||0163456765432123|||Klinik Test|||
+#	|||0163456765432123||||Tangerang||
+#	|||0163456765432123|||||Test|

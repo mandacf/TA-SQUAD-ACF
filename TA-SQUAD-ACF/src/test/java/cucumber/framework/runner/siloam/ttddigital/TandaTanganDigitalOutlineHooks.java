@@ -1,5 +1,10 @@
 package cucumber.framework.runner.siloam.ttddigital;
 
+//#created_by : Alamanda
+//#created_date : 31/09/2022
+//#updated_by : Alamanda
+//#updated_date : 3/10/2022
+
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
@@ -25,7 +30,7 @@ public class TandaTanganDigitalOutlineHooks {
 	public static ExtentTest extentTest;
 	public static ExtentReports reports = new ExtentReports("target/siloam/extentreport/siloam-sales-Update TTD Digital-outline.html");
 	private static SiloamTTDDigital[] tests = SiloamTTDDigital.values();
-	private static final int[] DATA_OUTLINE = {9};
+	private static final int[] DATA_OUTLINE = {9, 14};
 	private String testReport = "";
 	
 	@Before
