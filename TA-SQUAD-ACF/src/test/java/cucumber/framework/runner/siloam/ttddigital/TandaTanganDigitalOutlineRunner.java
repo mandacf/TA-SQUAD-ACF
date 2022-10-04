@@ -10,10 +10,10 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 features = {
-		"src/test/resources/features/siloam/100UpdateDataSalesSatuKombinasi.feature",
+//		"src/test/resources/features/siloam/100UpdateDataSalesSatuKombinasi.feature",
 //		"src/test/resources/features/siloam/105UpdateDataSalesDuaKombinasi.feature",
 //		"src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature",
-//		"src/test/resources/features/siloam/115UpdateDataSalesEmpatKombinasi.feature",
+		"src/test/resources/features/siloam/115UpdateDataSalesEmpatKombinasi.feature",
 		},
 glue = "cucumber.framework.runner.siloam.ttddigital",
 monochrome=true,
