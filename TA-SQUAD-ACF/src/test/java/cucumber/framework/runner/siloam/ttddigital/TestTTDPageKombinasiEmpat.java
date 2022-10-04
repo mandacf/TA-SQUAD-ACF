@@ -29,14 +29,14 @@ public class TestTTDPageKombinasiEmpat {
 	private boolean isFaskesAwalEmpty;
 	private boolean isFaskesTujuanEmpty;
 	private boolean isAlasanEmpty;
-	private String updateStrName;
-	private String updateStrBpjs;
-	private String updateStrNoKTP;
-	private String updateStrAlamat;
-	private String updateStrKotaKTP;
-	private String updateStrFaskesAwal;
-	private String updateStrFaskesTujuan;
-	private String updateStrAlasan;
+	private String strUpdateName;
+	private String strUpdateBpjs;
+	private String strUpdateNoKTP;
+	private String strUpdateAlamat;
+	private String strUpdateKotaKTP;
+	private String strUpdateFaskesAwal;
+	private String strUpdateFaskesTujuan;
+	private String strUpdateAlasan;
 	
 	public TestTTDPageKombinasiEmpat() {
 		driver = TandaTanganDigitalOutlineHooks.driver;
@@ -98,14 +98,14 @@ public void siloam115_sales_melakukan_update_pada_nama_nomor_bpjs_nomor_ktp_addr
 		this.isAlasanEmpty = false;
 	}
 	
-	updateStrName = nama;
-	updateStrBpjs = nomBpjs;
-	updateStrNoKTP = nomKtp;
-	updateStrAlamat = address;
-	updateStrKotaKTP = kotaKTP;
-	updateStrFaskesAwal = faskesAwal;
-	updateStrFaskesTujuan = faskesTujuan;
-	updateStrAlasan = alasan;
+	strUpdateName = nama;
+	strUpdateBpjs = nomBpjs;
+	strUpdateNoKTP = nomKtp;
+	strUpdateAlamat = address;
+	strUpdateKotaKTP = kotaKTP;
+	strUpdateFaskesAwal = faskesAwal;
+	strUpdateFaskesTujuan = faskesTujuan;
+	strUpdateAlasan = alasan;
 	
 	
 	ttdPage.update(nama, nomBpjs, nomKtp, address, kotaKTP, faskesAwal, faskesTujuan, alasan);
@@ -124,44 +124,44 @@ public void siloam115_validasi_data_tersimpan_dan_form_ter_update() {
 	
 	if(!this.isNamaEmpty) {
 		assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-		assertEquals(ttdPage.getTxtName(), updateStrName);
+		assertEquals(ttdPage.getTxtName(), strUpdateName);
 		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	} 
 	if (!this.isBpjsEmpty) {
 		System.out.println(ttdPage.msgSuccessUpdate());
 		assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-		assertEquals(ttdPage.getTxtNoBPJS(), updateStrBpjs);
+		assertEquals(ttdPage.getTxtNoBPJS(), strUpdateBpjs);
 		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	if (!this.isNoKTPEmpty) {
 		assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-		assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
+		assertEquals(ttdPage.getTxtNomKtp(), strUpdateNoKTP);
 		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 
 	if (!this.isAlamatEmpty) {
 		assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-		assertEquals(ttdPage.getTxtAddress(), updateStrAlamat);
+		assertEquals(ttdPage.getTxtAddress(), strUpdateAlamat);
 		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	if (!this.isKotaKTPEmpty) {
 		assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-		assertTrue(ttdPage.getTxtKotaKTP().contains(updateStrKotaKTP));
+		assertTrue(ttdPage.getTxtKotaKTP().contains(strUpdateKotaKTP));
 		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	if (!this.isFaskesAwalEmpty) {
 		assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-		assertEquals(ttdPage.getTxtFaskesAwal(), updateStrFaskesAwal);
+		assertEquals(ttdPage.getTxtFaskesAwal(), strUpdateFaskesAwal);
 		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	if (!this.isFaskesTujuanEmpty) {
 		assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-		assertTrue(ttdPage.getTxtFaskesTujuan().contains(updateStrFaskesTujuan));
+		assertTrue(ttdPage.getTxtFaskesTujuan().contains(strUpdateFaskesTujuan));
 		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	if (!this.isAlasanEmpty) {
 		assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-		assertEquals(ttdPage.getTxtAlasan(), updateStrAlasan);
+		assertEquals(ttdPage.getTxtAlasan(), strUpdateAlasan);
 		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	extentTest.log(LogStatus.PASS, "Siloam115 Validasi Data tersimpan dan form ter-update");
