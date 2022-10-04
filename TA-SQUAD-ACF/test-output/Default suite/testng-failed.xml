@@ -6,7 +6,7 @@
       <class name="cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="16 1 10 11 12 13 14 15"/>
+          <include name="runScenario" invocation-numbers="1 10 11 12 13 14 15 16 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner -->

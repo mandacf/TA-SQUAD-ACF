@@ -10,7 +10,8 @@ updated_date :
 public enum SiloamTTDDigital {
 	
 		T1("Siloam100 Sales Update Data Satu Kombinasi"),
-	    T2("Siloam105 Sales Update Data Dua Kombinasi");
+	    T2("Siloam105 Sales Update Data Dua Kombinasi"),
+	 	T3("Siloam110 Sales Update Data Tiga Kombinasi");
 		
 		private String testName;
 		

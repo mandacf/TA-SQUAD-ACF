@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="15" failed="8" skipped="0">
+<testng-results ignored="0" total="96" passed="66" failed="30" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-03T14:33:16 WIB" name="Default suite" finished-at="2022-10-03T14:36:07 WIB" duration-ms="171340">
+  <suite started-at="2022-10-04T12:49:23 WIB" name="Default suite" finished-at="2022-10-04T12:52:22 WIB" duration-ms="179570">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-10-03T14:33:16 WIB" name="Default test" finished-at="2022-10-03T14:36:07 WIB" duration-ms="171340">
+    <test started-at="2022-10-04T12:49:23 WIB" name="Default test" finished-at="2022-10-04T12:52:22 WIB" duration-ms="179570">
       <class name="cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:33:16 WIB" name="setUpClass" finished-at="2022-10-03T14:33:17 WIB" duration-ms="663" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:23 WIB" name="setUpClass" finished-at="2022-10-04T12:49:23 WIB" duration-ms="610" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1013871e]]>
+                <![CDATA[org.testng.TestRunner@7f06ef67]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:33:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:33:34 WIB" duration-ms="17588" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:23 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:31 WIB" duration-ms="7916" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:33:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:33:40 WIB" duration-ms="6132" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:31 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:33 WIB" duration-ms="1631" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiSatu.siloam100_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiSatu.java:120)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiSatu.siloam100_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiSatu.java:135)
 at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/100UpdateDataSalesSatuKombinasi.feature:17)
 ]]>
             </full-stacktrace>
@@ -70,7 +70,7 @@ at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:33:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:33:50 WIB" duration-ms="9491" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:33 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:35 WIB" duration-ms="1586" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@ at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:33:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:33:56 WIB" duration-ms="6152" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:35 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:36 WIB" duration-ms="1336" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,7 +102,7 @@ at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:33:56 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:03 WIB" duration-ms="7095" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:36 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:37 WIB" duration-ms="1074" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -118,7 +118,7 @@ at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:12 WIB" duration-ms="8506" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:39 WIB" duration-ms="1957" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@ at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:18 WIB" duration-ms="6128" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:41 WIB" duration-ms="1902" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,7 +150,7 @@ at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:24 WIB" duration-ms="5905" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:41 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:42 WIB" duration-ms="1164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@ at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:24 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:29 WIB" duration-ms="5824" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:43 WIB" duration-ms="1376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -182,7 +182,7 @@ at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:38 WIB" duration-ms="8791" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:43 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:45 WIB" duration-ms="2113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,11 +198,11 @@ at ✽.Siloam100 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:38 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:44 WIB" duration-ms="6048" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:47 WIB" duration-ms="1810" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -223,7 +223,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:119)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:133)
 at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/105UpdateDataSalesDuaKombinasi.feature:17)
 ]]>
             </full-stacktrace>
@@ -231,11 +231,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:44 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:49 WIB" duration-ms="4278" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:49 WIB" duration-ms="1525" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -256,7 +256,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:127)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:133)
 at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/105UpdateDataSalesDuaKombinasi.feature:17)
 ]]>
             </full-stacktrace>
@@ -264,11 +264,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:52 WIB" duration-ms="3905" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:51 WIB" duration-ms="2254" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -289,7 +289,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:135)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:133)
 at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/105UpdateDataSalesDuaKombinasi.feature:17)
 ]]>
             </full-stacktrace>
@@ -297,11 +297,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:52 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:34:59 WIB" duration-ms="6657" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:53 WIB" duration-ms="2250" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -322,7 +322,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:142)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:133)
 at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/105UpdateDataSalesDuaKombinasi.feature:17)
 ]]>
             </full-stacktrace>
@@ -330,11 +330,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:34:59 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:35:04 WIB" duration-ms="4423" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:55 WIB" duration-ms="1540" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -355,7 +355,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:149)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:133)
 at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/105UpdateDataSalesDuaKombinasi.feature:17)
 ]]>
             </full-stacktrace>
@@ -363,11 +363,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:35:04 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:35:08 WIB" duration-ms="4486" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:57 WIB" duration-ms="1685" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -388,7 +388,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:156)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:133)
 at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/105UpdateDataSalesDuaKombinasi.feature:17)
 ]]>
             </full-stacktrace>
@@ -396,11 +396,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:35:08 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:35:12 WIB" duration-ms="4169" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:49:58 WIB" duration-ms="1898" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -421,7 +421,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:163)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiDua.siloam105_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiDua.java:133)
 at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/105UpdateDataSalesDuaKombinasi.feature:17)
 ]]>
             </full-stacktrace>
@@ -429,11 +429,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:35:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:35:21 WIB" duration-ms="8373" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:49:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:00 WIB" duration-ms="1311" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -445,11 +445,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:35:21 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:35:29 WIB" duration-ms="8240" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:00 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:01 WIB" duration-ms="1351" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -461,11 +461,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:35:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:35:40 WIB" duration-ms="11400" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:03 WIB" duration-ms="1627" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -477,11 +477,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:35:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:35:48 WIB" duration-ms="8133" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:05 WIB" duration-ms="1796" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -493,11 +493,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:35:48 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:35:57 WIB" duration-ms="8214" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:05 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:06 WIB" duration-ms="1581" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -509,11 +509,11 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:35:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-03T14:36:05 WIB" duration-ms="8210" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:06 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:07 WIB" duration-ms="1373" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Siloam105 Sales Update Data Satu Kombinasi"]]>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
               </value>
             </param>
             <param index="1">
@@ -525,7 +525,1549 @@ at ✽.Siloam105 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NE
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-03T14:36:05 WIB" name="tearDownClass" finished-at="2022-10-03T14:36:07 WIB" duration-ms="2449" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:07 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:09 WIB" duration-ms="1262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:09 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:10 WIB" duration-ms="1761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:10 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:12 WIB" duration-ms="1533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:14 WIB" duration-ms="1790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:14 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:15 WIB" duration-ms="1650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:17 WIB" duration-ms="1505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:18 WIB" duration-ms="1368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:20 WIB" duration-ms="1356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:21 WIB" duration-ms="1342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:21 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:23 WIB" duration-ms="1551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:23 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:24 WIB" duration-ms="1626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:24 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:26 WIB" duration-ms="1536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:27 WIB" duration-ms="1299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:27 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:29 WIB" duration-ms="1665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:30 WIB" duration-ms="1487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam105 Sales Update Data Dua Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Dua Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:30 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:31 WIB" duration-ms="1262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:31 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:33 WIB" duration-ms="1746" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:33 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:35 WIB" duration-ms="1813" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:35 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:37 WIB" duration-ms="1872" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:39 WIB" duration-ms="1625" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:40 WIB" duration-ms="1661" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:42 WIB" duration-ms="1679" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:44 WIB" duration-ms="1841" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:44 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:45 WIB" duration-ms="1735" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:47 WIB" duration-ms="1641" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:49 WIB" duration-ms="1768" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:51 WIB" duration-ms="2603" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:53 WIB" duration-ms="1997" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:55 WIB" duration-ms="1947" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:57 WIB" duration-ms="1932" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:50:59 WIB" duration-ms="1917" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:50:59 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:01 WIB" duration-ms="1985" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:03 WIB" duration-ms="1771" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:05 WIB" duration-ms="2397" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:05 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:08 WIB" duration-ms="2086" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:08 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:09 WIB" duration-ms="1906" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:09 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:11 WIB" duration-ms="2060" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:11 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:13 WIB" duration-ms="1601" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Alamanda] but found [ADIT TEST]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Alamanda] but found [ADIT TEST]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at cucumber.framework.runner.siloam.ttddigital.TestTTDPageKombinasiTiga.siloam110_validasi_data_tersimpan_dan_form_ter_update(TestTTDPageKombinasiTiga.java:155)
+at ✽.Siloam110 Validasi Data tersimpan dan form ter-update(file:///C:/Users/NEXSOFT/Documents/Project/TA_SQA/JuaraCoding/Alamanda/TA-SQUAD-ACF/TA-SQUAD-ACF/src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:13 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:15 WIB" duration-ms="1514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:17 WIB" duration-ms="2154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:18 WIB" duration-ms="1530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:20 WIB" duration-ms="1689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:22 WIB" duration-ms="1704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:22 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:23 WIB" duration-ms="1802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:23 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:25 WIB" duration-ms="1637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:25 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:27 WIB" duration-ms="1766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:27 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:29 WIB" duration-ms="1833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:31 WIB" duration-ms="1863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:31 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:32 WIB" duration-ms="1807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:32 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:34 WIB" duration-ms="1961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:36 WIB" duration-ms="1923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:36 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:38 WIB" duration-ms="1647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:38 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:40 WIB" duration-ms="1681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:42 WIB" duration-ms="1886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:43 WIB" duration-ms="1941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:43 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:45 WIB" duration-ms="1643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:47 WIB" duration-ms="1551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:51 WIB" duration-ms="3881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:52 WIB" duration-ms="1614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:52 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:54 WIB" duration-ms="1724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:54 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:55 WIB" duration-ms="1498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:57 WIB" duration-ms="1870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:51:59 WIB" duration-ms="1640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:51:59 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:01 WIB" duration-ms="1976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:03 WIB" duration-ms="1986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:05 WIB" duration-ms="1788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:05 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:06 WIB" duration-ms="1551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:06 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:08 WIB" duration-ms="1752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:08 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:11 WIB" duration-ms="2680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:11 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:13 WIB" duration-ms="2466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:13 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:17 WIB" duration-ms="3823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:19 WIB" duration-ms="1755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:19 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T12:52:22 WIB" duration-ms="3206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Siloam110 Sales Update Data Tiga Kombinasi"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Update Data Sales Tiga Kombinasi"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.framework.runner.siloam.ttddigital.TandaTanganDigitalOutlineRunner@68c9133c]" started-at="2022-10-04T12:52:22 WIB" name="tearDownClass" finished-at="2022-10-04T12:52:22 WIB" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

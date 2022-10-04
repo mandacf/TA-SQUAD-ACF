@@ -28,14 +28,14 @@ public class TestTTDPageKombinasiDua {
 	private static WebDriver driver;
 	private static ExtentTest extentTest;
 	private TandaTanganDigitalPage ttdPage = new TandaTanganDigitalPage();
-	private String strNama;
-	private String strBpjs;
-	private String strNoKTP;
-	private String strAlamat;
-	private String strKotaKTP;
-	private String strFaskesAwal;
-	private String strFaskesTujuan;
-	private String strAlasan;
+	private boolean isNamaEmpty;
+	private boolean isBpjsEmpty;
+	private boolean isNoKTPEmpty;
+	private boolean isAlamatEmpty;
+	private boolean isKotaKTPEmpty;
+	private boolean isFaskesAwalEmpty;
+	private boolean isFaskesTujuanEmpty;
+	private boolean isAlasanEmpty;
 	private String updateStrName;
 	private String updateStrBpjs;
 	private String updateStrNoKTP;
@@ -48,6 +48,14 @@ public class TestTTDPageKombinasiDua {
 	public TestTTDPageKombinasiDua() {
 		driver = TandaTanganDigitalOutlineHooks.driver;
 		extentTest = TandaTanganDigitalOutlineHooks.extentTest;
+		this.isNamaEmpty = true;
+		this.isBpjsEmpty = true;
+		this.isNoKTPEmpty = true;
+		this.isAlamatEmpty = true;
+		this.isKotaKTPEmpty = true;
+		this.isFaskesAwalEmpty = true;
+		this.isFaskesTujuanEmpty = true;
+		this.isAlasanEmpty = true;
 	}
 	
 	@When("Siloam105 Sales Mengakses Halaman Website")
@@ -72,29 +80,29 @@ public class TestTTDPageKombinasiDua {
 
 	@When("^Siloam105 Sales Melakukan Update Pada (.*), (.*), (.*), (.*), (.*), (.*), (.*), dan (.*)$")
 	public void siloam105_sales_melakukan_update_pada_nama_nomor_bpjs_nomor_ktp_address_kota_ktp_faskes_awal_faskes_tujuan_dan_alasan(String nama, String nomBpjs,String nomKtp, String address, String kotaKTP, String faskesAwal, String faskesTujuan, String alasan)throws AWTException {
-		if(nama == "") {
-			strNama = "";
+		if(!nama.equals("")) {
+			this.isNamaEmpty = false;
 		}
-		if(nomBpjs == "") {
-			strBpjs = "";
+		if(!nomBpjs.equals("")) {
+			this.isBpjsEmpty = false;
 		} 
-		if(nomKtp == "") {
-			strNoKTP = "";
+		if(!nomKtp.equals("")) {
+			this.isNoKTPEmpty = false;
 		}
-		if(address == "") {
-			strAlamat = "";
+		if(!address.equals("")) {
+			this.isAlamatEmpty = false;
 		}
-		if(kotaKTP == "") {
-			strKotaKTP = "";	
+		if(!kotaKTP.equals("")) {
+			this.isKotaKTPEmpty = false;	
 		}
-		if(faskesAwal == "") {
-			strFaskesAwal = "";
+		if(!faskesAwal.equals("")) {
+			this.isFaskesAwalEmpty = false;
 		}
-		if(faskesTujuan == "") {
-			strFaskesTujuan = "";
+		if(!faskesTujuan.equals("")) {
+			this.isFaskesTujuanEmpty = false;
 		}
-		if(alasan == "") {
-			strAlasan = "";
+		if(!alasan.equals("")) {
+			this.isAlasanEmpty = false;
 		}
 		
 		updateStrName = nama;
@@ -119,143 +127,49 @@ public class TestTTDPageKombinasiDua {
 
 	@Then("Siloam105 Validasi Data tersimpan dan form ter-update")
 	public void siloam105_validasi_data_tersimpan_dan_form_ter_update() {
-	//NAMA
-		if(strNama != "" && strBpjs != "") {
-			String txtExpected = "Data berhasil Di Simpan";
+		String txtExpected = "Data berhasil Di Simpan";
+		if(!this.isNamaEmpty) {
 			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
 			assertEquals(ttdPage.getTxtName(), updateStrName);
-			assertEquals(ttdPage.getTxtNoBPJS(), updateStrBpjs);
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-		} 
-		
-		if(strNama != "" && strNoKTP != "") {
-			String txtExpected = "Data berhasil Di Simpan";
-			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtName(), updateStrName);
-			assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
 			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 		} 
-		
-		if(strNama != "" && strAlamat != "") {
-			String txtExpected = "Data berhasil Di Simpan";
-			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtName(), updateStrName);
-			assertEquals(ttdPage.getTxtAddress(), updateStrAlamat);
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-		} 
-		if(strNama != "" && strKotaKTP != "") {
-			String txtExpected = "Data berhasil Di Simpan";
-			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtName(), updateStrName);
-			assertTrue(ttdPage.getTxtKotaKTP().contains(updateStrKotaKTP));
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-		} 
-		if(strNama != "" && strFaskesAwal != "") {
-			String txtExpected = "Data berhasil Di Simpan";
-			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtName(), updateStrName);
-			assertEquals(ttdPage.getTxtFaskesAwal(), updateStrFaskesAwal);
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-		}
-		if(strNama != "" && strFaskesTujuan != "") {
-			String txtExpected = "Data berhasil Di Simpan";
-			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtName(), updateStrName);
-			assertTrue(ttdPage.getTxtFaskesTujuan().contains(updateStrFaskesTujuan));
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-		}
-		if(strNama != "" && strAlasan != "") {
-			String txtExpected = "Data berhasil Di Simpan";
-			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtName(), updateStrName);
-			assertEquals(ttdPage.getTxtAlasan(), updateStrAlasan);
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-		}
-		
-		//NO BPJS
-		if(strBpjs != "" && strNoKTP != "") {
-			String txtExpected = "Data berhasil Di Simpan";
+		if (!this.isBpjsEmpty) {
+			System.out.println(ttdPage.msgSuccessUpdate());
 			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
 			assertEquals(ttdPage.getTxtNoBPJS(), updateStrBpjs);
+			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
+		}
+		if (!this.isNoKTPEmpty) {
+			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
 			assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
 			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
-		} 
-		
-		if(strBpjs != "" && strAlamat != "") {
-			String txtExpected = "Data berhasil Di Simpan";
+		}
+	
+		if (!this.isAlamatEmpty) {
 			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtNoBPJS(), updateStrBpjs);
 			assertEquals(ttdPage.getTxtAddress(), updateStrAlamat);
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-		} 
-		if(strBpjs != "" && strKotaKTP != "") {
-			String txtExpected = "Data berhasil Di Simpan";
+			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
+		}
+		if (!this.isKotaKTPEmpty) {
 			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtNoBPJS(), updateStrBpjs);
 			assertTrue(ttdPage.getTxtKotaKTP().contains(updateStrKotaKTP));
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-		} 
-		if(strBpjs != "" && strFaskesAwal != "") {
-			String txtExpected = "Data berhasil Di Simpan";
+			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
+		}
+		if (!this.isFaskesAwalEmpty) {
 			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtNoBPJS(), updateStrBpjs);
 			assertEquals(ttdPage.getTxtFaskesAwal(), updateStrFaskesAwal);
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
+			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 		}
-		if(strBpjs != "" && strFaskesTujuan != "") {
-			String txtExpected = "Data berhasil Di Simpan";
+		if (!this.isFaskesTujuanEmpty) {
 			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtNoBPJS(), updateStrBpjs);
 			assertTrue(ttdPage.getTxtFaskesTujuan().contains(updateStrFaskesTujuan));
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
+			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 		}
-		if(strBpjs != "" && strAlasan != "") {
-			String txtExpected = "Data berhasil Di Simpan";
+		if (!this.isAlasanEmpty) {
 			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-			assertEquals(ttdPage.getTxtNoBPJS(), updateStrBpjs);
 			assertEquals(ttdPage.getTxtAlasan(), updateStrAlasan);
-			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
+			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 		}
-		
-		//NO KTP
-//		if(strNoKTP != "" && strAlamat != "") {
-//			String txtExpected = "Data berhasil Di Simpan";
-//			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-//			assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
-//			assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
-//			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-//		} 
-//		
-//		if(strNoKTP != "" && strKotaKTP != "") {
-//			String txtExpected = "Data berhasil Di Simpan";
-//			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-//			assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
-//			assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
-//			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
-//		} 
-//		
-//		if(strNoKTP != "" && strFaskesAwal != "") {
-//			String txtExpected = "Data berhasil Di Simpan";
-//			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-//			assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
-//			assertEquals(ttdPage.getTxtAddress(), updateStrAlamat);
-//			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-//		} 
-//		if(strNoKTP != "" && strFaskesTujuan != "") {
-//			String txtExpected = "Data berhasil Di Simpan";
-//			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-//			assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
-//			assertEquals(ttdPage.getTxtKotaKTP(), updateStrKotaKTP);
-//			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-//		} 
-//		if(strNoKTP != "" && strAlasan != "") {
-//			String txtExpected = "Data berhasil Di Simpan";
-//			assertTrue(ttdPage.msgSuccessUpdate().contains(txtExpected));
-//			assertEquals(ttdPage.getTxtNomKtp(), updateStrNoKTP);
-//			assertEquals(ttdPage.getTxtFaskesAwal(), updateStrFaskesAwal);
-//			Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);	
-//		}
-
 		
 		extentTest.log(LogStatus.PASS, "Siloam105 Validasi Data tersimpan dan form ter-update");
 	    

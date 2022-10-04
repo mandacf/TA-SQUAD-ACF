@@ -127,23 +127,23 @@ private WebDriver driver;
 	public void update(String nama, String nomBpjs,String nomKtp, String address, String srkotaKTP, String faskesAwal, String faskesTujuan, String alasan) throws AWTException {
 		Robot robot = new Robot();
 		
-		if(nama != "") {
+		if(!nama.equals("")) {
 			clearName();
 			updateName(nama);
 		}
-		if(nomBpjs != "") {
+		if(!nomBpjs.equals("")) {
 			clearNomBpjs();
 			updateNoBPJS(nomBpjs);
 		} 
-		if(nomKtp != "") {
+		if(!nomKtp.equals("")) {
 			clearNomKtp();
 			updateNomKtp(nomKtp);
 		}
-		if(address != "") {
+		if(!address.equals("")) {
 			clearAddress();
 			updateAddress(address);
 		}
-		if(srkotaKTP != "") {
+		if(!srkotaKTP.equals("")) {
 			clickKotaKTP();
 			updateKotaKTP(srkotaKTP);
 			robot.keyPress(KeyEvent.VK_ENTER);
@@ -151,17 +151,17 @@ private WebDriver driver;
 //			Select skotaKtp = new Select(kotaKTP);
 //			skotaKtp.selectByValue(srkotaKTP);
 		}
-		if(faskesAwal != "") {
+		if(!faskesAwal.equals("")) {
 			clearfaskesAwal();
 			updateFaskesAwal(faskesAwal);
 		}
-		if(faskesTujuan != "") {
+		if(!faskesTujuan.equals("")) {
 			clickFaskesTujuan();
 			updateFaskesTujuan(faskesTujuan);
 			robot.keyPress(KeyEvent.VK_ENTER);
 			robot.keyRelease(KeyEvent.VK_ENTER);
 		}
-		if(alasan != "") {
+		if(!alasan.equals("")) {
 			clearAlasan();
 			updateAlasan(alasan);
 		}
@@ -187,6 +187,7 @@ private WebDriver driver;
 	
 	public void updateName(String nama) {
 		this.nama.sendKeys(nama);
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	//No BPJS
@@ -210,6 +211,7 @@ private WebDriver driver;
 	
 	public void updateNomKtp(String nomKtp) {
 		this.nomKtp.sendKeys(nomKtp);
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public String getTxtNomKtp() {		
@@ -223,6 +225,7 @@ private WebDriver driver;
 	
 	public void updateAddress(String address) {
 		this.address.sendKeys(address);
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public String getTxtAddress() {		
@@ -241,6 +244,7 @@ private WebDriver driver;
 	
 	public void updateKotaKTP(String kotaKTP) {
 		this.txtBox.sendKeys(kotaKTP);
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	//Faskes Awal
@@ -250,6 +254,7 @@ private WebDriver driver;
 	
 	public void updateFaskesAwal(String faskesAwal) {
 		this.faskesAwal.sendKeys(faskesAwal);
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public String getTxtFaskesAwal() {		
@@ -259,10 +264,12 @@ private WebDriver driver;
 	//Faskes Tujuan
 	public void clickFaskesTujuan() {
 		this.faskesTujuan.click();
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public void updateFaskesTujuan(String faskesTujuan) {
 		this.txtBox.sendKeys(faskesTujuan);
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public String getTxtFaskesTujuan() {		
@@ -276,6 +283,7 @@ private WebDriver driver;
 	
 	public void updateAlasan(String alasan) {
 		this.alasan.sendKeys(alasan);
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public String getTxtAlasan() {		
@@ -285,6 +293,7 @@ private WebDriver driver;
 	
 	public void btnEdit() {
 		this.edit.click();
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public void btnUpdate() {
@@ -294,6 +303,7 @@ private WebDriver driver;
 	
 	public void btncancelUpdate() {
 		this.cancelUpdate.click();
+		Utils.delay(Constants.TIMEOUT_DELAY, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public String msgSuccessUpdate() {

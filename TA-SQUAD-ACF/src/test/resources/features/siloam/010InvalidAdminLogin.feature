@@ -1,7 +1,7 @@
 #created_by : Alamanda
 #created_date : 29/09/2022
-#updated_by : -
-#updated_date : -
+#updated_by : Alamanda
+#updated_date : 4/10/2022
 
 
 Feature: Invalid Sales Login
@@ -16,6 +16,6 @@ Feature: Invalid Sales Login
   Examples: 
   |username|password|
 	|manda|manda@passw0rd|
-	|manda|d1k4@passw0rd|
+	|Admindika|d1k4@passw0rd|
 	|admindika|d1k4@|
 	

@@ -1,7 +1,7 @@
 #created_by : Alamanda
 #created_date : 29/09/2022
-#updated_by : -
-#updated_date : -
+#updated_by : Alamanda
+#updated_date : 4/10/2022
 
 
 Feature: Valid Sales Login
@@ -15,6 +15,4 @@ Feature: Valid Sales Login
     #3 data
   Examples: 
     | username | password   |
-    | d6200927 | 1997-10-23 |
-    | d6200927 | 1997-10-23 |
     | D6200927 | 1997-10-23 |

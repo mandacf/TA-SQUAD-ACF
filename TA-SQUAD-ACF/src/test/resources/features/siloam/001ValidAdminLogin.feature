@@ -1,7 +1,7 @@
 #created_by : Novri
 #created_date : 29/09/2022
-#updated_by : -
-#updated_date : -
+#updated_by : Alamanda
+#updated_date : 4/10/2022
 
 Feature: Valid Admin Login
 
@@ -15,5 +15,4 @@ Feature: Valid Admin Login
   Examples: 
     | username  | password      |
     | admindika | d1k4@passw0rd |
-    | Admindika | d1k4@passw0rd |
-    | ADMINDIKA | d1k4@passw0rd |
+

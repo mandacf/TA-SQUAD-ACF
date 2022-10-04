@@ -8,7 +8,7 @@ public class ExcelGenerateOutline {
 
 	public static void main(String[] args) {
 		StringBuilder sBuild = new StringBuilder();
-		String excelPath = "C:\\Users\\NEXSOFT\\Documents\\poladua_nama.xlsx";
+		String excelPath = "C:\\Users\\NEXSOFT\\Documents\\polatiga.xlsx";
 		String sheetName = "Sheet1";
 		ExcelReader excelReader = new ExcelReader(excelPath, sheetName);
 
