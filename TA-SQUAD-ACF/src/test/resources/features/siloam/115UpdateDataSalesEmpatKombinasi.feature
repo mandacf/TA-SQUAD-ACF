@@ -17,45 +17,45 @@ Feature: Update Data Sales Empat Kombinasi
     
     #70 data
   Examples: 
-  #|nama|nomorBPJS|nomorKTP|address|kotaKTP|faskesAwal|faskesTujuan|alasan|
-  #|Alamanda|1234567899093|1634567654321239|Padang|||||
-#	|Alamanda|1234567899093|1634567654321239||KOTA PADANG||||
-#	|Alamanda|1234567899093|1634567654321239|||Klinik Test|||
-#	|Alamanda|1234567899093|1634567654321239||||Tangerang||
-#	|Alamanda|1234567899093|1634567654321239|||||Test|
-#	|Alamanda|1234567899093||Padang|KOTA PADANG||||
-#	|Alamanda|1234567899093||Padang||Klinik Test|||
-#	|Alamanda|1234567899093||Padang|||Tangerang||
-#	|Alamanda|1234567899093||Padang||||Test|
-#	|Alamanda||1634567654321239|Padang|KOTA PADANG||||
-#	|Alamanda||1634567654321239|Padang||Klinik Test|||
-#	|Alamanda||1634567654321239|Padang|||Tangerang||
-#	|Alamanda||1634567654321239|Padang|KOTA PADANG|||Test|
-#	|Alamanda|||Padang|KOTA PADANG|Klinik Test|||
-#	|Alamanda|||Padang|KOTA PADANG||Tangerang||
-#	|Alamanda|||Padang|KOTA PADANG|||Test|
-#	|Alamanda||1634567654321239||KOTA PADANG|Klinik Test|||
-#	|Alamanda||1634567654321239||KOTA PADANG||Tangerang||
-#	|Alamanda||1634567654321239||KOTA PADANG|||Test|
-#	|Alamanda||1634567654321239|||Klinik Test|Tangerang||
-#	|Alamanda||1634567654321239|||Klinik Test||Test|
-#	|Alamanda||1634567654321239||||Tangerang|Test|
-#	|Alamanda|||Padang||Klinik Test|Tangerang||
-#	|Alamanda|||Padang||Klinik Test||Test|
-#	|Alamanda|||Padang|||Tangerang|Test|
-#	|Alamanda|1234567899093||Padang|KOTA PADANG||||
-#	|Alamanda|1234567899093||Padang||Klinik Test|||
-#	|Alamanda|1234567899093||Padang|||Tangerang||
-#	|Alamanda|1234567899093||Padang||||Test|
-#	|Alamanda|1234567899093|||KOTA PADANG|Klinik Test|||
-#	|Alamanda|1234567899093|||KOTA PADANG||Tangerang||
-#	||1234567899093|1634567654321230|Padang|KOTA PADANG||||
-#	||1234567899093|1634567654321230|Padang||Klinik Test|||
-#	||1234567899093|1634567654321230|Padang|||Tangerang||
-#	||1234567899093|1634567654321230|Padang||||Test|
-#	||1234567899093|1634567654321230||KOTA PADANG|Klinik Test|||
-#	||1234567899093|1634567654321230||KOTA PADANG||Tangerang||
-#	|Alamanda||||KOTA PADANG|Klinik Test|Tangerang||
+  |nama|nomorBPJS|nomorKTP|address|kotaKTP|faskesAwal|faskesTujuan|alasan|
+  |Alamanda|1234567899093|1634567654321239|Padang|||||
+	|Alamanda|1234567899093|1634567654321239||KOTA PADANG||||
+	|Alamanda|1234567899093|1634567654321239|||Klinik Test|||
+	|Alamanda|1234567899093|1634567654321239||||Tangerang||
+	|Alamanda|1234567899093|1634567654321239|||||Test|
+	|Alamanda|1234567899093||Padang|KOTA PADANG||||
+	|Alamanda|1234567899093||Padang||Klinik Test|||
+	|Alamanda|1234567899093||Padang|||Tangerang||
+	|Alamanda|1234567899093||Padang||||Test|
+	|Alamanda||1634567654321239|Padang|KOTA PADANG||||
+	|Alamanda||1634567654321239|Padang||Klinik Test|||
+	|Alamanda||1634567654321239|Padang|||Tangerang||
+	|Alamanda||1634567654321239|Padang|KOTA PADANG|||Test|
+	|Alamanda|||Padang|KOTA PADANG|Klinik Test|||
+	|Alamanda|||Padang|KOTA PADANG||Tangerang||
+	|Alamanda|||Padang|KOTA PADANG|||Test|
+	|Alamanda||1634567654321239||KOTA PADANG|Klinik Test|||
+	|Alamanda||1634567654321239||KOTA PADANG||Tangerang||
+	|Alamanda||1634567654321239||KOTA PADANG|||Test|
+	|Alamanda||1634567654321239|||Klinik Test|Tangerang||
+	|Alamanda||1634567654321239|||Klinik Test||Test|
+	|Alamanda||1634567654321239||||Tangerang|Test|
+	|Alamanda|||Padang||Klinik Test|Tangerang||
+	|Alamanda|||Padang||Klinik Test||Test|
+	|Alamanda|||Padang|||Tangerang|Test|
+	|Alamanda|1234567899093||Padang|KOTA PADANG||||
+	|Alamanda|1234567899093||Padang||Klinik Test|||
+	|Alamanda|1234567899093||Padang|||Tangerang||
+	|Alamanda|1234567899093||Padang||||Test|
+	|Alamanda|1234567899093|||KOTA PADANG|Klinik Test|||
+	|Alamanda|1234567899093|||KOTA PADANG||Tangerang||
+	||1234567899093|1634567654321230|Padang|KOTA PADANG||||
+	||1234567899093|1634567654321230|Padang||Klinik Test|||
+	||1234567899093|1634567654321230|Padang|||Tangerang||
+	||1234567899093|1634567654321230|Padang||||Test|
+	||1234567899093|1634567654321230||KOTA PADANG|Klinik Test|||
+	||1234567899093|1634567654321230||KOTA PADANG||Tangerang||
+	|Alamanda||||KOTA PADANG|Klinik Test|Tangerang||
 	|Alamanda||||KOTA PADANG|Klinik Test||Test|
 	|Alamanda||||KOTA PADANG||Tangerang|Test|
 	|Alamanda|||||Klinik Test|Tangerang|Test|
@@ -85,9 +85,9 @@ Feature: Update Data Sales Empat Kombinasi
 	|||1634567654321230|||Klinik Test|Tangerang|Test|
 	||||Padang|KOTA PADANG|Klinik Test|Tangerang||
 	||||Padang|KOTA PADANG|Klinik Test||Test|
-	||||Padang|KOTA PADANG||Klinik Test|Test|
-	||||Padang||Klinik Test|Klinik Test|Test|
-	|||||KOTA PADANG|Klinik Test|Klinik Test|Test|
+	||||Padang|KOTA PADANG||Tangerang|Test|
+	||||Padang||Klinik Test|Tangerang|Test|
+	|||||KOTA PADANG|Klinik Test|Tangerang|Test|
 	
 
   

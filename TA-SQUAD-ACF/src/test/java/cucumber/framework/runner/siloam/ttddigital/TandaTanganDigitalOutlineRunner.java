@@ -1,4 +1,5 @@
-package cucumber.framework.runner.siloam.ttddigital;
+package cucumber.framework
+.runner.siloam.ttddigital;
 
 //#created_by : Alamanda
 //#created_date : 31/09/2022
@@ -13,7 +14,8 @@ features = {
 //		"src/test/resources/features/siloam/100UpdateDataSalesSatuKombinasi.feature",
 //		"src/test/resources/features/siloam/105UpdateDataSalesDuaKombinasi.feature",
 //		"src/test/resources/features/siloam/110UpdateDataSalesTigaKombinasi.feature",
-		"src/test/resources/features/siloam/115UpdateDataSalesEmpatKombinasi.feature",
+		"src/test/resources/features/siloam/115UpdateDataSalesEmpatKombinasi.feature"
+		+ "",
 		},
 glue = "cucumber.framework.runner.siloam.ttddigital",
 monochrome=true,

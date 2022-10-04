@@ -71,7 +71,7 @@ public void siloam115_sales_tekan_tombol_edit() {
 	   extentTest.log(LogStatus.PASS, "Siloam115 Sales Tekan Tombol Edit");
 }
 
-@When("Siloam115 Sales Melakukan Update Pada (.*), (.*), (.*), (.*), (.*), (.*), (.*), dan (.*)$")
+@When("^Siloam115 Sales Melakukan Update Pada (.*), (.*), (.*), (.*), (.*), (.*), (.*), dan (.*)$")
 public void siloam115_sales_melakukan_update_pada_nama_nomor_bpjs_nomor_ktp_address_kota_ktp_faskes_awal_faskes_tujuan_dan_alasan(String nama, String nomBpjs,String nomKtp, String address, String kotaKTP, String faskesAwal, String faskesTujuan, String alasan) throws AWTException {
 	if(!nama.equals("")) {
 		this.isNamaEmpty = false;
