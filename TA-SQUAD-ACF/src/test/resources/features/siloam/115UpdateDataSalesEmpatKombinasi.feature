@@ -5,15 +5,15 @@
 
 Feature: Update Data Sales Empat Kombinasi
 	
-	Scenario: Siloam110 Sales Login 
-	When Siloam110 Sales Mengakses Halaman Website
-	Then Siloam110 Validasi sales masuk ke halaman ttd digital
+	Scenario: Siloam115 Sales Login 
+	When Siloam115 Sales Mengakses Halaman Website
+	Then Siloam115 Validasi sales masuk ke halaman ttd digital
 
-  Scenario: Siloam110 Sales Update Data Empat Kombinasi
-    When Siloam110 Sales Tekan Tombol Edit 
-    And Siloam110 Sales Melakukan Update Pada <nama>, <nomorBPJS>, <nomorKTP>, <address>, <kotaKTP>, <faskesAwal>, <faskesTujuan>, dan <alasan> 
-    And Siloam110 Sales tekan tombol Simpan
-    Then Siloam110 Validasi Data tersimpan dan form ter-update
+  Scenario: Siloam115 Sales Update Data Empat Kombinasi
+    When Siloam115 Sales Tekan Tombol Edit 
+    And Siloam115 Sales Melakukan Update Pada <nama>, <nomorBPJS>, <nomorKTP>, <address>, <kotaKTP>, <faskesAwal>, <faskesTujuan>, dan <alasan> 
+    And Siloam115 Sales tekan tombol Simpan
+    Then Siloam115 Validasi Data tersimpan dan form ter-update
     
     #31 data
   Examples: 
