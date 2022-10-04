@@ -36,92 +36,73 @@ private WebDriver driver;
 
 //PAGE NEW
 	@FindBy(xpath = "//a[@href='https://dev.ptdika.com/siloam/sales/new_data']")
-	//input[contains(@attr, 'value')]
 	private WebElement pageNew;
 	
 //DATA
 	@FindBy(xpath = "//input[@id='name']")
-	//input[contains(@attr, 'value')]
 	private WebElement nama;
 	
 	@FindBy(xpath = "//input[@id='no_bpjs']")
-	//input[contains(@attr, 'value')]
 	private WebElement nomBpjs;
 	
 	@FindBy(xpath = "//input[@id='no_ktp']")
-	//input[contains(@attr, 'value')]
 	private WebElement nomKtp;
 	
 	@FindBy(xpath = "//textarea[@id='address']")
-	//input[contains(@attr, 'value')]
 	private WebElement address;
 	
 	@FindBy(xpath = "//span[@id='select2-ktp_city-container']")
-	//input[contains(@attr, 'value')]
 	private WebElement kotaKTP;
 	
 	@FindBy(xpath = "//input[@role='textbox']")
-	//input[contains(@attr, 'value')]
 	private WebElement txtBox;
 	
 	
 	@FindBy(xpath = "//input[@id='origin_faskes']")
-	//input[contains(@attr, 'value')]
 	private WebElement faskesAwal;
 	
 	@FindBy(xpath = "//span[@id='select2-destination_faskes-container']")
-	//input[contains(@attr, 'value')]
 	private WebElement faskesTujuan;
 	
 	@FindBy(xpath = "//textarea[@id='reason']")
-	//input[contains(@attr, 'value')]
 	private WebElement alasan;
 	
 	@FindBy(xpath = "//button[@id='btnEdit']")
-	//input[contains(@attr, 'value')]
 	private WebElement edit;
 	
 	@FindBy(xpath = "//button[@id='btnUpdate']")
-	//input[contains(@attr, 'value')]
 	private WebElement update;
 	
 	
 	@FindBy(xpath = "//button[@id='btnCancelUpdate']")
-	//input[contains(@attr, 'value')]
 	private WebElement cancelUpdate;
 	
 	@FindBy(xpath = "//div[@role='alert']")
-	//input[contains(@attr, 'value')]
 	private WebElement msgSuccess;
 	
 	
 //DOKUMEN
 	@FindBy(xpath = "/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/a[1]/img[1]")
-	//input[contains(@attr, 'value')]
 	private WebElement bfImage;
 
 	
 
 //UPLOAD DOKUMEN
-//UPLOAD DOKUMEN kolom File Upload
+
 	@FindBy(xpath = "/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/form[1]/div[1]/table[1]/tbody[1]/tr[1]/td[4]/a[1]/span[1]")
-	//input[contains(@attr, 'value')]
+	
 	private WebElement imgBefore;
-//UPLOAD DOKUMEN kolom Kontrol
+
 	@FindBy(xpath = "//form[@id='fileupload']/div/table/tbody/tr[3]/td[4]/a/i")
-	//input[contains(@attr, 'value')]
 	private WebElement uploadFile;
 	
 	@FindBy(xpath = "//input[@id='file']")
-	//input[contains(@attr, 'value')]
 	private WebElement file;
 	
 	@FindBy(xpath = "//button[@id='btnSaveFoto']")
-	//input[contains(@attr, 'value')]
 	private WebElement saveFoto;
 	
 	@FindBy(xpath = "//button[@class='btn btn-danger pull-left']")
-	//input[contains(@attr, 'value')]
 	private WebElement cancelUpload;
 	
 	public void update(String nama, String nomBpjs,String nomKtp, String address, String srkotaKTP, String faskesAwal, String faskesTujuan, String alasan) throws AWTException {

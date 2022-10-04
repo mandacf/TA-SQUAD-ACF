@@ -30,9 +30,9 @@ public class TandaTanganDigitalOutlineHooks {
 	public static ExtentTest extentTest;
 	public static ExtentReports reports = new ExtentReports("target/siloam/extentreport/siloam-sales-Update TTD Digital-outline.html");
 	private static SiloamTTDDigital[] tests = SiloamTTDDigital.values();
-	private static final int[] DATA_OUTLINE = {9,29,59};
+	private static final int[] DATA_OUTLINE = {9,29,59,32};
 	private String testReport = "";
-//	9, 29, 36
+//	9,29,59,
 	
 	@Before
 	public void setUp() {		
