@@ -39,7 +39,6 @@ Feature: Update Data Sales Tiga Kombinasi
 	|Alamanda|||||Klinik Test|Tangerang||
 	|Alamanda|||||Klinik Test||Test|
 	|Alamanda||||||Tangerang|Test|
-	|Alamanda||||||Tangerang|Test|
 	||1234567899093|1634567654321200|Padang|||||
 	||1234567899093|1634567654321200||KOTA PADANG||||
 	||1234567899093|1634567654321200|||Klinik Test|||
